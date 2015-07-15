@@ -29,6 +29,7 @@ import java.util.Calendar;
 public class MainActivity extends Activity {
 
     private static final String URL = "https://api.bitfinex.com/v1/pubticker/btcusd";
+    private static final String testString = "This is a string to test git!";
 
     TextView tvPrice, tvTitle, tvVolume, tvTime;
     HttpClient client;
